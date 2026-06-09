@@ -2,7 +2,7 @@ import socket
 import win32print
 
 # Mude para o nome EXATO que aparece em "Impressoras e scâneres" no Windows
-NOME_IMPRESSORA = "Oasis OIA 8387" 
+NOME_IMPRESSORA = "NOME DA IMPRESSORA" 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Permite reutilizar a porta imediatamente após reiniciar o script
